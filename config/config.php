@@ -7,10 +7,10 @@ ini_set('display_errors', 1);
 session_start();
 
 // Database credentials
-define('DB_HOST', 'YOUR_HOST_IP'); // Database host (typically 'localhost')
-define('DB_USERNAME', 'YOUR_HOST_UERNAME'); // Database username (adjust as per your environment)
-define('DB_PASSWORD', 'YOUR_HOST_PASSWORD'); // Database password (adjust as per your environment)
-define('DB_NAME', 'YOUR_HOST_DB'); // Database name
+define('DB_HOST', 'localhost'); // Database host (typically 'localhost')
+define('DB_USERNAME', 'root'); // Database username (adjust as per your environment)
+define('DB_PASSWORD', ''); // Database password (adjust as per your environment)
+define('DB_NAME', 'qboxproject_a6b2c5'); // Database name
 define('CLIENT_ID', 'YOUR_DSICORD_CLIENT_ID');
 define('CLIENT_SECRET', 'YOUR_DSICORD_CLIENT_SECRET');
 define('REDIRECTURI', 'https://YOUR_DOMAIN_HERE/process-oauth.php');
